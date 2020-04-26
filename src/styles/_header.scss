@@ -114,7 +114,12 @@ $headerColor:#ffffff;
         padding: 6px;
         text-transform: uppercase;
     }
+
+    @media screen and (max-width: 768px) {
+        display: block;
+    }
 }
+
 
 .services{
     margin-top: 0px;
