@@ -30,7 +30,7 @@ $headerColor:#ffffff;
                 width: 100%;
                 flex-direction: column;
                 text-align: center;
-                clip-path: circle(1000px at 90% -10%);
+                clip-path: circle(5px at 90% -10%);
                 -webkit-clip-path: circle(5px at 90% -10%);
                 transition: all 1s ease-out;
                 pointer-events: none;
@@ -126,6 +126,10 @@ $headerColor:#ffffff;
 
     @media screen and (max-width: 768px) {
         margin-top: 40px;
+    }
+
+    @media screen and (max-width: 481px) {
+        display: none;
     }
 }
 
@@ -277,6 +281,8 @@ $headerColor:#ffffff;
 
     @media screen and (max-width: 768px) {
         display: block;
+        // margin-top: 60px;
+        margin: 70px 0px 15px;
     }
 
 }
@@ -285,7 +291,7 @@ $headerColor:#ffffff;
     display: flex;
     justify-content: space-between;
     width: 80%;
-    margin-left: 40px;
+    margin: 0 auto;
 
     img{
         width: 200px;
