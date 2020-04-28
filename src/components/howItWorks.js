@@ -23,7 +23,6 @@ const HowItWorks = () => {
                 </div>
             </div>
         </how-it-works>
-
     `;
 
     return template;
