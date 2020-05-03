@@ -68,10 +68,20 @@ $headerColor:#ffffff;
     }
     
     @media screen and (max-width: 768px) {
-        height: 1000px;
+        height: 1050px;
     }
 }
 
+.search-bar{
+    padding: 10px;
+    border-radius: 25px;
+    margin-left:30px;
+    border: none;
+
+    @media screen and (max-width: 768px){
+        display: none;
+    }
+}
 
 
 .logo{
@@ -92,6 +102,7 @@ $headerColor:#ffffff;
 
     @media screen and (max-width: 768px) {
         display: block;
+        margin-top: -200px;
     }
 }
 
@@ -160,10 +171,11 @@ $headerColor:#ffffff;
 
 .grid-box-wrapper{
     display: flex;
+    width: 80%;
     margin: 80px 0;
 
     .grid-text{
-        flex-basis: 60%;
+        flex-basis: 65.5%;
 
         h4{
             color: #FFFFFF;
@@ -233,7 +245,7 @@ $headerColor:#ffffff;
     }
 
     .grid-box{
-        flex-basis: 30.5%;
+        flex-basis: 40.5%;
         background-color: #403840;
         padding: 30px;
         height: 100%;
@@ -281,7 +293,7 @@ $headerColor:#ffffff;
 
     @media screen and (max-width: 768px) {
         display: block;
-        // margin-top: 60px;
+        width: 100%;
         margin: 70px 0px 15px;
     }
 
@@ -289,15 +301,16 @@ $headerColor:#ffffff;
 
 .sponsors{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 
     img{
         width: 200px;
 
         @media screen and (max-width: 768px) {
-            width: 70px;
+            width: 50px;
         }
     }
 

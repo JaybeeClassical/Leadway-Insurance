@@ -11,7 +11,7 @@
 
     .previous-arrow{
         background-image: url(../asset/previous.svg);
-        width: 21px;
+        width: 23px;
         height: 42px;
         cursor: pointer;
         position: absolute;
@@ -20,13 +20,14 @@
         left: -51px;
 
         @media screen  and (max-width: 768px){
-            display: none;
+            // display: none;
+            left: -15px;
         }
     }
 
     .next-arrow{
         background-image: url(../asset/next.svg);
-        width: 21px;
+        width: 23px;
         height: 42px;
         cursor: pointer;
         position: absolute;
@@ -35,7 +36,8 @@
         right: -51px;
 
         @media screen  and (max-width: 768px){
-            display: none;
+            // display: none;
+            right: -15px;
         }
     }
 }
@@ -95,6 +97,6 @@
 
     @media screen  and (max-width: 768px){
         margin: 30px auto 0px;
-        width: 60%;
+        width: 80%;
     }
 }
