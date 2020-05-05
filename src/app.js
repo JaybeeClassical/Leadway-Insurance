@@ -2,14 +2,16 @@ import Header from './components/header';
 import './styles/main.scss';
 import HowItWorks from './components/howItWorks';
 import Plan from './components/plan';
+import Manager from './components/manager';
 
 
 const app = () => {
     document.querySelector('.header').innerHTML = Header();
     document.querySelector('.how-it-works').innerHTML = HowItWorks();
 
+    // Called in the Manager Component
     document.querySelector('.plan').innerHTML = Plan();
-
+    document.querySelector('.manager').innerHTML = Manager();
 
     let sliderCard = document.querySelectorAll('.each-card');
     let arrowLeft = document.querySelector('.previous-arrow');
@@ -18,7 +20,7 @@ const app = () => {
 
     function reset() {
         for (let i = 0; i < sliderCard.length; i++) {
-            sliderCard[i].style.display = 'none';
+            sliderCard[i].style.display = 'block';
         }
     }
 
