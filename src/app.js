@@ -13,14 +13,14 @@ const app = () => {
     document.querySelector('.plan').innerHTML = Plan();
     document.querySelector('.manager').innerHTML = Manager();
 
-    let sliderCard = document.querySelectorAll('.each-card');
+    let sliderCard = document.querySelectorAll('.mobile-each-card');
     let arrowLeft = document.querySelector('.previous-arrow');
     let arrowRight = document.querySelector('.next-arrow');
     let current = 0;
 
     function reset() {
         for (let i = 0; i < sliderCard.length; i++) {
-            sliderCard[i].style.display = 'block';
+            sliderCard[i].style.display = 'none';
         }
     }
 
