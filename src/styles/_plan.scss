@@ -7,6 +7,10 @@
         font-size: 35px;
         margin: 20px;
         color: #403840;
+
+        @media screen and (max-width: 481px){
+            font-size: 25px;
+        }
     }
 
     .previous-arrow{
@@ -75,6 +79,10 @@
         color: #FDBE0F;
         font-size: 35px;
         font-weight: bolder;
+
+        @media screen and (max-width: 481px){
+            font-size: 20px;
+        }
     }
 
     hr{

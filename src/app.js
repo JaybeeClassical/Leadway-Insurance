@@ -3,6 +3,7 @@ import './styles/main.scss';
 import HowItWorks from './components/howItWorks';
 import Plan from './components/plan';
 import Manager from './components/manager';
+import Testimony from './components/testimony';
 
 
 const app = () => {
@@ -12,6 +13,8 @@ const app = () => {
     // Called in the Manager Component
     document.querySelector('.plan').innerHTML = Plan();
     document.querySelector('.manager').innerHTML = Manager();
+
+    document.querySelector('.testimony').innerHTML = Testimony();
 
     let sliderCard = document.querySelectorAll('.mobile-each-card');
     let arrowLeft = document.querySelector('.previous-arrow');
