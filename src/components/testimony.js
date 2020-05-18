@@ -2,7 +2,7 @@ const Testimony = () => {
     const template = `
         <testimony>
             <div class="testimony">
-                <h3>Testimonials</h3>
+                <h3 class="testimony-title">Testimonials</h3>
                 <div class="arrow-previous"></div>
                 <div class="each-testimony">
                     <img src="https://res.cloudinary.com/techibytes/image/upload/v1589710843/https__cdn.cnn.com_cnnnext_dam_assets_181127124252-01-mark-luckie-112818_dgypuk.png" class="testimony-image" alt="business-man"/>
@@ -49,7 +49,30 @@ const Testimony = () => {
 
             <div class="contact">
                 <h1>get in touch</h1>
-                
+                <div class="contact-form-wrapper">
+                    <div class="contect-text">
+                        <p>
+                        Do you have any Questions, complaints, messages,
+                        enquires, contribution or business for us? 
+                        Then this form is for you, fill the form accordingly and click send.
+                        </p>
+
+                        <h3 class="contact-number">002-010-66269735</h3>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <input type="email" placeholder="Email"/>
+                            <select id="select"> 
+                                <option value="" disabled selected>Subject</option> 
+                            </select>
+                            <textarea id="textarea" rows="4" cols="50" class="textarea">
+                            </textarea>
+                            <button type="submit" class="send-button">
+                                Send
+                            </button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </testimony>
     `;
