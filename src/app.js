@@ -1,4 +1,5 @@
 import Header from './components/header';
+import Footer from './components/footer';
 import './styles/main.scss';
 import HowItWorks from './components/howItWorks';
 import Plan from './components/plan';
@@ -8,6 +9,7 @@ import Testimony from './components/testimony';
 
 const app = () => {
     document.querySelector('.header').innerHTML = Header();
+    document.querySelector('.footer').innerHTML = Footer();
     document.querySelector('.how-it-works').innerHTML = HowItWorks();
 
     // Called in the Manager Component
